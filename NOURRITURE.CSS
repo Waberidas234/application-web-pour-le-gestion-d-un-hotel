@@ -1,0 +1,28 @@
+body{
+    border-top:5px solid purple;
+    background-color: rgba(84, 134, 201, 0.25);
+
+}
+h1,h2{
+text-align: center;
+}
+
+
+.im1 ,.im11,.im0{
+    display: inline-block;
+    width: 30%;
+    height:30%;
+
+}
+.n1,.n2,.n3{
+    display: inline-block;
+    width:30%;
+    height:30%;
+
+}
+.div{
+    border:5px solid rgb(112, 150, 168);
+}
+.div2{
+    border:5px solid rgb(232, 238, 238);
+}

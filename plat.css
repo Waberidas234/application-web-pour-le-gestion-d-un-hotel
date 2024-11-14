@@ -1,0 +1,141 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+body{
+    background:linear-gradient(to top ,rgba(0, 0, 0, 0.8)50%,rgba(0, 0, 0, 0.8)50%),url("nou4.jpeg");
+  
+}
+
+
+   
+.menu{
+    margin-left: 400px;
+}
+ul li{
+   float: left;
+    list-style: none;
+    margin-left:40px ;
+    margin-bottom: 5px;
+    font-size:14px;
+    margin-right: 80px;
+}
+.logo{
+    color:green;
+font-size: 35px;
+font-family: Arial;
+padding-left: 20px;
+float:left;
+padding-top: 10px;
+
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    color: white;
+}
+ul li a:hover{
+    color:green;
+}
+
+h1{
+    clear: left;
+    margin-right: 50px;
+    font-family: arial;
+}
+legend:hover{
+    background: 1px solid rgb(194, 33, 194);
+}
+fieldset li ,legend ,p,i , body h1 {
+    color:white;
+}
+fieldset{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+    }
+.f2,.f3{
+    align-items: center;
+    }
+    .srch{
+        font-family: 'Times New Roman';
+        width: 200px;
+        height: 40px;
+        background: transparent;
+        border: 1px solid green;
+        margin-top: 13px;
+        color:white;
+        border-right:none;
+        font-size: 16px;
+        float: left;
+        padding: 10px;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+        
+        }
+    .bt{
+        width: 100px;
+        height: 40px;
+        background: green;
+        border:2px solid green;
+        margin-top:13px;
+        color:white;
+        font-size: 15px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        }
+
+.rating {
+        Display : flex;
+        Justify-content : center;
+        Margin-bottom : 20px;
+    }
+    
+.rating input {
+        Display : none;
+    }
+    
+.rating label {
+        Cursor : pointer;
+        Width : 40px;
+        Height : 40px;
+        Background-image : url(‘data :image/svg+xml ;utf8,<svg xmlns= "http://www.w3.org/2000/svg" width= "24" height= "24" viewBox= "0 0 24 24" fill= "none" stroke= "currentColor" stroke-width= "2" stroke-linecap= "round" stroke-linejoin= "round"><polygon points= "12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>’) ;
+        Background-size : contain;
+        Background-repeat : no-repeat;
+    }
+    
+
+    .etoile:hover{
+     color: yellow;
+    }
+    H1{
+        text-align: CENTER;
+    }
+    footer{
+        background: black;
+        width: 100%;
+        height: 150px;
+    }
+    footer a {
+        color: white;
+    }
+    footer p{
+        text-align: center;
+        color:white;
+        padding-top: 30px;
+    }
+    .soc{
+       padding-top: 50px;
+       padding-left: 700px;
+       font-size: 25px;
+       color:white;
+       letter-spacing: 50px;
+    }
+    footer p:hover,footer a:hover{
+        color:green;
+    }

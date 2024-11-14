@@ -1,0 +1,114 @@
+body{
+    margin:0px;
+    padding:0px;
+   font-size:9px;
+}
+
+
+
+.tete{
+    text-align: center;
+    font-size: 12px;
+    height:100px;
+    padding-top:50px;
+    background-image: url("téléchargement\ \(1\).jpeg");
+
+}
+
+nav{
+    width:100%;
+    background-color:black;
+    
+} 
+nav ul{
+    margin:0px;
+    padding:0px;
+}
+nav li{
+    list-style-type: none;
+    float:left;
+    font-size: 20px;
+
+}
+.quaran { 
+    Position : fixed ;
+    Top : 50% ;
+    Left : 0 ;
+    Transform : translateY(-50%) ;
+    Background-color : #f2f2f2 ;
+    Padding : 20px ;
+    Border-right : 2px solid #ccc ;
+    Box-shadow : 0 0 10px rgba(0, 0, 0, 0.1) ;
+    z-index : 1000 ;
+    max-width : 300px ; /* Ajustez la largeur de la publicité selon vos besoins */
+
+
+
+}
+
+nav a{
+    text-decoration: none;
+    color:white;
+    display:inline-block;
+    padding:20px 30px;
+    
+}
+.bas{
+    height: 80px;
+    clear:left;
+    background-color: aqua;
+    text-align: center;
+    
+}
+.menu{
+    display: table;
+    margin:0px auto;
+}
+.sec1 h1,.sec2 h1,.sec3 h1{
+    text-align: center;
+   
+
+}
+.sec1,.accueil:hover{
+    border-top:5px solid yellow;
+    background-color: rgb(64, 200, 130,0.15);
+font
+
+}
+.sec2,.nouri:hover{
+    border-top:5px solid purple;
+    background-color: rgb(164, 200, 130,0.15);
+
+}
+.sec3,.ex:hover{
+    border-top:5px solid aqua;
+    background-color: rgba(0, 149, 255, 0.4);
+
+}
+.sec1{
+font-size: 15px;
+font-weight: normal;
+text-decoration: none;
+}
+    
+header{
+    height: 200px;
+}
+
+.sec3{
+   height:450px;
+    font-weight: bold;
+    
+}
+footer{
+    font-size: 13px;
+}
+.sec2 {
+    width: 100%;
+    display: block;
+    height: 450px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
